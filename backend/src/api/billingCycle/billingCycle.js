@@ -22,3 +22,31 @@ const billingCycleSchema = new mongoose.Schema({
 })
 
 module.exports = restful.model('billingCycle', billingCycleSchema)
+
+/*
+ Exemplo de JSON para gravação. 
+
+{
+    "name": "Janeiro 2017",
+    "month": 1,
+    "year": 2017,
+    "credits": [{
+        "name": "Salário",
+        "value": 1500
+    }],
+    "debts": [{
+        "name": "Luz",
+        "value": 100
+    }, {
+        "name": "Telefone",
+        "value": 150
+    }]
+}
+
+
+*/
+
+
+
+
+
